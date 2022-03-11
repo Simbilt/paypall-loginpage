@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    width: 600px;
+    height: 700px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    display: block;
+    
+}
+#paypall_logo{
+    margin-top: 30px;
+   margin-left: 230px;
+}
+
+#card input{
+    width: 500px;
+    height: 60px;
+    margin: 20px 20px 20px 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+    font-size: 20px;
+    outline: none;
+   
+}
+
+#link{
+    display: block;
+    margin: 0 0 0 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #0079C1;
+    font-weight: 500;
+    border: none;
+}
+
+#login{
+    background-color: #0079C1;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#card h2{
+   width: 500px; 
+   text-align: center; 
+   border-bottom: 1px solid grey; 
+   line-height: 0.1em;
+   margin: 50px 0 50px 50px; 
+   color: grey;
+}
+#card h2 span{ 
+    background:#fff; 
+    padding:0 10px; 
+    
+}
+#signup{
+    width: 500px;
+    height: 60px;
+    margin: 20px 20px 20px 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+    font-size: 20px;
+    display: block;
+    border: none;
+    color: grey;
+}
+#linkovi{
+    margin-top: 100px;
+}
+
+.linkovi{
+    font-size: 20px;
+    color:#0079C1;
+    text-decoration: none;
+    margin:0px 0 0 50px;
+}
